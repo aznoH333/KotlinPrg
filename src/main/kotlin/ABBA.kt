@@ -7,13 +7,15 @@ fun main(){
     var bylobycoolkdybybylonecojakojenomfor = 0
     while(bylobycoolkdybybylonecojakojenomfor < input.length - 1){
         val segment = input.substring(bylobycoolkdybybylonecojakojenomfor, bylobycoolkdybybylonecojakojenomfor+2)
-        if (segment =="AB"){
-            ab = true
-            bylobycoolkdybybylonecojakojenomfor++
-        }
-        else if (segment =="BA"){
-            ba = true
-            bylobycoolkdybybylonecojakojenomfor++
+        when(segment){
+            "AB" -> {
+                ab = true
+                bylobycoolkdybybylonecojakojenomfor++
+            }
+            "BA" -> {
+                ba = true
+                bylobycoolkdybybylonecojakojenomfor++
+            }
         }
 
         bylobycoolkdybybylonecojakojenomfor++
