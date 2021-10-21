@@ -1,4 +1,4 @@
-package main.kotlin
+package main.kotlin.kotlin1
 
 val xSize = 8
 val ySize = 8
@@ -40,9 +40,9 @@ fun update(zivot: List<MutableList<Boolean>>) {
 fun getNeighbors(temp: List<MutableList<Boolean>>, x: Int, y: Int): Int {
     var output = 0
     if (x > 0 && temp[x-1][y]) output++
-    if (x < xSize-1 && temp[x+1][y]) output++
+    if (x < xSize -1 && temp[x+1][y]) output++
     if (y > 0 && temp[x][y-1]) output++
-    if (y < ySize-1 && temp[x][y+1]) output++
+    if (y < ySize -1 && temp[x][y+1]) output++
     if (y > 0 && temp[x][y+1]) output++
 
     return output

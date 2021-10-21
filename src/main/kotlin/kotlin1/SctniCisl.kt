@@ -1,4 +1,4 @@
-package main.kotlin
+package main.kotlin.kotlin1
 
 fun main(){
     val input = readLine()?: return
