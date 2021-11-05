@@ -4,7 +4,7 @@ import kotlin.math.abs
 
 fun main(){
     val banany = mutableMapOf<Float, Float>()
-    banany.put(0f,1000f)
+    banany.put(0f,3000f)
     val v = velbloud()
 
     println("Velbloud v:b15 ready for action")
